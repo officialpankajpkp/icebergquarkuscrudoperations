@@ -54,7 +54,7 @@ This approach is the most practical for our current use case, ensuring a balance
 
 ### Architecture Diagram
 
-*(Diagram to be added here)*  
+![Architecture Diagram](https://github.com/officialpankajpkp/icebergquarkuscrudoperations/blob/review1/Architecture%20Diagram1.png)  
 
 ### Description
 
