@@ -1,9 +1,9 @@
 # Test Cases - Podman, Trino, Iceberg, Quarkus, and GUI Integration
 
-**Submitted By:**  Pankaj Kumar Pandey  
-**Submitted To:** Mr. Vipin Tripathi  
-**Test Case Version:**  1  
-**Reviewer Name:** Ms. Moumita Roy 
+**Submitted By:**  Pankaj Kumar Pandey    
+**Submitted To:** Mr. Vipin Tripathi    
+**Test Case Version:**  1    
+**Reviewer Name:** Ms. Moumita Roy   
 
 ## Goal
 
@@ -28,8 +28,9 @@ The goal of this project is to build a fully functional data processing pipeline
 
 **Test Case 2 – Verify Iceberg installation inside Podman**  
 **Scenario:** Validate Iceberg service deployment.  
-**Remark:** Ensure Iceberg starts without errors.  
+**Remark:** Ensure Iceberg starts without errors.
 **Given:** Iceberg is deployed inside a Podman container.  
+**Given:** Iceberg is deployed inside a Podman contaner.  
 **When:** The container logs are checked.  
 **Then:** Iceberg service should start without errors.  
 **Test Run Date:**  
