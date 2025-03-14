@@ -72,7 +72,7 @@ In this approach, **Apache Iceberg** and **Trino** are deployed as containerized
 ### Pre-requisites
 
 #### *Hardware Requirements*
-- **Minimum 16GB RAM**  
+- **Minimum 8 GB RAM**  
 - **Multi-core processor (Intel i5 or higher)**  
 - **At least 100GB disk space**  
 
@@ -81,10 +81,9 @@ In this approach, **Apache Iceberg** and **Trino** are deployed as containerized
 - **Apache Iceberg (latest release)**  
 - **Trino (v414+)**  
 - **Java Quarkus (v3.x)**  
-- **PostgreSQL (if using a catalog service)**  
 
 #### *Networking Requirements*
--  **Open ports**: `8080 (Quarkus)`, `9090 (Trino UI)`, `1527 (PostgreSQL, if used)`  
+-  **Open ports**: `8080 (Quarkus)`, `9090 (Trino UI)`
 -  **Internet access for fetching container images**  
 
 ---
@@ -111,7 +110,7 @@ This approach involves deploying **Iceberg** and **Trino** as **Kubernetes-manag
 ### Pre-requisites
 
 #### *Hardware Requirements*
-- **Minimum 32GB RAM (for Kubernetes nodes)**  
+- **Minimum 16 GB RAM (for Kubernetes nodes)**  
 - **Multi-core processor (Intel i7 or higher)**  
 - **At least 250GB disk space**  
 
@@ -121,10 +120,10 @@ This approach involves deploying **Iceberg** and **Trino** as **Kubernetes-manag
 - **Apache Iceberg (latest release)**  
 - **Trino (v414+)**  
 - **Java Quarkus (v3.x)**  
-- **PostgreSQL (if using a catalog service)**  
+ 
 
 #### *Networking Requirements*
-- **Open ports**: `8080 (Quarkus)`, `9090 (Trino UI)`, `1527 (PostgreSQL, if used)`  
+- **Open ports**: `8080 (Quarkus)`, `9090 (Trino UI)` 
 - **Kubernetes ingress configuration for external access**  
 
 
